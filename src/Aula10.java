@@ -38,6 +38,6 @@ public class Aula10 {
         System.out.println(somaEntre(10,12));
         System.out.println(somaEntre(2,9));
         System.out.println(media(1,2,5,'A'));
-        System.out.println(fatorial(5));
+        System.out.println(fatorial(8));
     }
 }
