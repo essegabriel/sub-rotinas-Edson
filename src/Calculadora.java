@@ -13,11 +13,19 @@ public class Calculadora {
                 if (v2 != 0) {
                     return v1 / v2;
                 } else {
+<<<<<<< Updated upstream
                     System.out.println("Erro: Divisão por zero");
                     return 0;
                 }
             default:
                 System.out.println("Operador inválido");
+=======
+                    System.out.println("Erro");
+                    return 0;
+                }
+            default:
+                System.out.println("opração inválida");
+>>>>>>> Stashed changes
                 return 0;
         }
     }
@@ -32,7 +40,11 @@ public class Calculadora {
         System.out.print("Digite o segundo valor: ");
         double valor2 = scanner.nextDouble();
 
+<<<<<<< Updated upstream
         System.out.print("Digite o operador (+, -, *, /): ");
+=======
+        System.out.print("Digite a operação (+, -, *, /): ");
+>>>>>>> Stashed changes
         char operador = scanner.next().charAt(0);
 
         double resultado = calculadora.realizarOperacao(valor1, valor2, operador);
