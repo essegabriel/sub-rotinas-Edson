@@ -18,7 +18,7 @@ public class Calculadora {
                 }
             default:
                 System.out.println("Operador inválido");
-                return 0; 
+                return 0;
         }
     }
 
